@@ -46,7 +46,7 @@ export default function Sidebar() {
         "& .pro-sidebar-inner": {
           background: `${colors.primary[400]} !important`,
         },
-        "& .pro-sidebar-wrapper": {
+        "& .pro-icon-wrapper": {
           backgroundColor: "transparent !important",
         },
         "& .pro-inner-item": {
@@ -55,7 +55,7 @@ export default function Sidebar() {
         "& .pro-inner-item:hover": {
           color: "#868dfb !important",
         },
-        "& .pro-inner-item:active": {
+        "& .pro-menu-item.active": {
           color: "#6870fa !important",
         },
       }}
